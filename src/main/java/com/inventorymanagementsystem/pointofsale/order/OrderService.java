@@ -44,7 +44,6 @@ public class OrderService {
                 Logger.getLogger(ex.getMessage());
                 ex.printStackTrace();
             }
-
         }
 
         return orderDTOList;
